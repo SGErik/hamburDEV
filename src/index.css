@@ -11,3 +11,21 @@
 button {
   cursor: pointer;
 }
+
+
+
+@font-face {
+  font-family: 'Wanted';
+  src: url(./font/intramur.ttf);
+}
+
+@font-face {
+  font-family: 'PoppinsReg';
+  src: url(./font/Poppins-Regular.otf);
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url(./font/Poppins-Bold.otf);
+}
+
