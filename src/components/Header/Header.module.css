@@ -1,0 +1,75 @@
+.headerText {
+    background-color: #E99856;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Wanted', sans-serif;
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 6vh;
+    height: 180px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+}
+
+.toPages {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+
+.toPages a {
+    font-family: 'PoppinsReg', sans-serif;
+    font-size: 20px;
+    color: #E99856;
+    text-decoration: none;
+
+}
+
+.toPages a:hover {
+    color: white;
+    transition: 0.1s;
+}
+.imgLogo {
+    width: 240px;
+    margin-left: 18px;
+}
+
+.btnDiv {
+    display: flex;
+    margin-right: 100px;
+}
+
+.btn {
+    background-color: #E99856;
+    width: 190px;
+    margin-left: 18px;
+    height: 60px;
+    font-family: 'PoppinsBold', sans-serif;
+    font-size: 24px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: white;
+    width: 200px;
+    height: 70px;
+}
