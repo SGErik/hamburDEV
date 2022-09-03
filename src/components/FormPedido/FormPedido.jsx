@@ -12,6 +12,11 @@ const FormPedido = () => {
     total: "",
   });
 
+  function handleChange(e, nomeDaChave) {
+    setDataForm({ ...dataForm, [nomeDaChave]: e.target.value });
+    console.log(dataForm);
+  }
+
   return (
     <div className={S.primaryContainer}>
       <form className={S.secondaryContainer}>
@@ -24,7 +29,11 @@ const FormPedido = () => {
         </fieldset>
         <fieldset>
           <label htmlFor="nome">Nome</label>
-          <input type="text" id="nome" />
+          <input
+            onChange={(e) => handleChange(e, "nome")}
+            type="text"
+            id="nome"
+          />
         </fieldset>
         <fieldset>
           <label htmlFor="endereco">Endereço de Entrega</label>
