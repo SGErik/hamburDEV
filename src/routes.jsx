@@ -8,7 +8,11 @@ import Home from "./pages/Home/Home";
 const Router = () => {
   return (
     <BrowserRouter>
+<<<<<<< HEAD:src/Router.jsx
       <Header />
+=======
+    <Header />
+>>>>>>> 435a3e1451659305ad18068faf6733cbc22e9e3c:src/routes.jsx
       <Switcher>
         <Route path="/" element={<Home />} />
         <Route path="/facaseupedido" element={<FacaSeuPedido />} />
