@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes as Switcher } from "react-router-dom";
 import Header from "./components/Header/Header";
 import AlterarPedido from "./pages/AlterarPedido/AlterarPedido";
 import FacaSeuPedido from "./pages/FacaSeuPedido/FacaSeuPedido";
@@ -9,11 +9,11 @@ const Router = () => {
   return (
     <BrowserRouter>
     <Header />
-      <Routes>
+      <Switcher>
         <Route path="/" element={<Home />} />
         <Route path="/facaseupedido" element={<FacaSeuPedido />} />
         <Route path="/alterarseupedido/:pedido" element={<AlterarPedido />} />
-      </Routes>
+      </Switcher>
     </BrowserRouter>
   );
 };
