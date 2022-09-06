@@ -1,14 +1,16 @@
-import { useState } from "react";
 import "./App.css";
-import Routes from "./routes";
+import { PedidoContextProvider } from "./context/pedidoContext";
+import  Router  from "./routes";
+
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <Routes />
-    </div>
+    <PedidoContextProvider>
+      <div className="App">
+        <Router />
+      </div>
+    </PedidoContextProvider>
   );
 }
 
