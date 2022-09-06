@@ -3,6 +3,37 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.cardProducts {
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.cardProducts h1 {
+  font-size: 20px;
+}
+
+.cardProducts img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.cardData {
+  margin-left: 15px;
+}
+
+.btnActions {
+  display: flex;
+  align-self: center;
 }
