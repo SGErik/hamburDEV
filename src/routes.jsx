@@ -1,17 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes as Switcher } from "react-router-dom";
+import Header from "./components/Header/Header";
 import FacaSeuPedido from "./pages/FacaSeuPedido/FacaSeuPedido";
 import Home from "./pages/Home/Home";
 
-const Router = () => {
+const Routes = () => {
   return (
     <BrowserRouter>
-      <Routes>
+      <Header />
+      <Switcher>
         <Route path="/" element={<Home />} />
         <Route path="/facaseupedido" element={<FacaSeuPedido />} />
-      </Routes>
+      </Switcher>
     </BrowserRouter>
   );
 };
 
-export default Router;
+export default Routes;
