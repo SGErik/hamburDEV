@@ -6,6 +6,7 @@ import AlterarPedido from "./pages/AlterarPedido/AlterarPedido";
 import FacaSeuPedido from "./pages/FacaSeuPedido/FacaSeuPedido";
 import Home from "./pages/Home/Home";
 
+
 const Router = () => {
   return (
     <BrowserRouter>
