@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dataPost from "../../Services/api";
+import { dataPost } from "../../Services/api";
 import S from "../FormPedido/FormPedido.module.css";
 
 const FormPedido = () => {
