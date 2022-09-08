@@ -4,7 +4,7 @@ export const api = axios.create({
   baseURL: "https://devburguersapi.herokuapp.com/",
 });
 
-export default function dataPost(dataForm) {
+export function dataGet() {
   try {
     api.post("/pedidos", dataForm).then((response) => {
       console.log(response.data);
@@ -13,3 +13,35 @@ export default function dataPost(dataForm) {
     console.log(e);
   }
 }
+
+export function dataPost(dataForm) {
+  try {
+    api.post("/pedidos", dataForm).then((response) => {
+      console.log(response.data);
+    });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+export function dataPatch(dataForm) {
+  try {
+    api.post("/pedidos", dataForm).then((response) => {
+      console.log(response.data);
+    });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+
+export function dataDelete(dataForm) {
+  try {
+    api.post("/pedidos", dataForm).then((response) => {
+      console.log(response.data);
+    });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
