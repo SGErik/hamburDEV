@@ -1,0 +1,40 @@
+.bdSet{
+    position: absolute;
+    background: url(../../assets/quemsomosDiv.jpg);
+    width: 100%;
+    height: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content {
+    display: flex;
+    position: absolute;
+    
+}
+
+.texts {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 480px;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.divText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+
+.divText p {
+    font-size: 20px;
+}   
