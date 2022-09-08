@@ -1,6 +1,6 @@
 import "./App.css";
 import { PedidoContextProvider } from "./context/pedidoContext";
-import  Router  from "./Routes";
+import  Router  from "./Router";
 
 
 function App() {
