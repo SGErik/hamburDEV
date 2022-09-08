@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import dataPost from "../../Services/api";
 import S from "../FormPedido/FormPedido.module.css";
 
 const FormPedido = () => {
@@ -13,9 +14,17 @@ const FormPedido = () => {
     total: "",
   });
 
-  function ValidaProdutoPreco() {
+  function ValidaProdutoePreco() {
     if (dataForm.itensdopedido === "X-Salada") {
+      dataForm.total = "R$15,00";
+    } else if (dataForm.itensdopedido === "X-Bacon") {
       dataForm.total = "R$16,00";
+    } else if (dataForm.itensdopedido === "X-Bacon Salada") {
+      dataForm.total = "R$18,00";
+    } else if (dataForm.itensdopedido === "X-Calabresa") {
+      dataForm.total = "R$17,00";
+    } else if (dataForm.itensdopedido === "X-Tudo") {
+      dataForm.total = "R$22,00";
     } else return;
   }
 
@@ -25,7 +34,8 @@ const FormPedido = () => {
 
   function handleClick(e) {
     e.preventDefault();
-    ValidaProdutoPreco();
+    ValidaProdutoePreco();
+    dataPost(dataForm);
     console.log(dataForm);
   }
 
