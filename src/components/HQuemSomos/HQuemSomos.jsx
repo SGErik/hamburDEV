@@ -1,5 +1,4 @@
 import React from 'react'
-import HMaisSobre from '../HMaisSobre/HMaisSobre'
 import S from './HQuemSomos.module.css'
 
 const HQuemSomos = () => {
