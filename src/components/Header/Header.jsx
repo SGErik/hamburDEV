@@ -11,7 +11,8 @@ const Header = () => {
         <header>
             <div className={S.headerText}>
                 <h2>O Simples da melhor forma!</h2>
-                </div>
+            </div>
+            
                 <div className={S.mainHeader}>
                     <Link to='/'>
                         <img src={Logo} alt="logo" className={S.imgLogo} />
@@ -24,10 +25,10 @@ const Header = () => {
                             <Button className={S.btn} text='DELIVERY' />
                         </Link>
                     </div>
+                </div>
 
-                
 
-            </div>
+            
 
 
         </header>

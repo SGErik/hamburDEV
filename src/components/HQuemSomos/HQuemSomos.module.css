@@ -1,0 +1,96 @@
+.bdSet{
+    background: url(../../assets/quemsomosDiv.jpg);
+    width: 100%;
+    height: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.texts {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 480px;
+    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.divText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+
+.divText p {
+    font-size: 20px;
+}
+
+@media (max-width: 1920px) {
+    .texts {
+    margin-top: 270px;
+    margin-left: 640px;
+    }
+
+    .bdSet {
+        height: 1200px;
+    }
+
+    .divText {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .texts {
+    margin-top: 180px;
+    margin-left: 480px;
+    }
+    .bdSet {
+        height: 840px;
+    }
+
+    .divText {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .bdSet {
+        background: url(../../assets/quemsomosDiv2.jpg);
+        background-size: cover;
+
+    }
+    .texts {
+        margin-top: 240px;
+        margin-left: 50px;
+    }
+    .divText {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .texts {
+    margin-left: 50px;
+    margin-top: 120px;
+    }
+}

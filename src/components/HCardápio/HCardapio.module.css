@@ -1,9 +1,70 @@
 .mainDiv {
-    display: block;
+    display: flex;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     
+}
+
+.mainDiv h3 {
+    color: #E99856;
+    font-size: 32px;
+    margin-top: 10px;
+    font-family: 'PoppinsBold', sans-serif;
+}
+
+hr {
+    margin-top: 10px;
+    width: 360px;
+    border-top: 5px solid #E99856;
+}
+
+.pageDivider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 9px;
+    margin-top: 30px;
+}
+
+.pageDivider h2 {
+    color: #E99856 ;
+    font-size: 30px;
+    margin-top: 5px
+}
+
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    .mainDiv {
+        overflow: hidden;
+    }
+
+    .carrousel {
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+    }
 }
 
 
