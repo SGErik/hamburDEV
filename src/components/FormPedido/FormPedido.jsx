@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dataPost from "../../Services/api";
+import { dataPost } from "../../Services/api";
 import S from "../FormPedido/FormPedido.module.css";
 
 const FormPedido = () => {
@@ -36,6 +36,7 @@ const FormPedido = () => {
     e.preventDefault();
     ValidaProdutoePreco();
     dataPost(dataForm);
+    document.location.reload(true)
     console.log(dataForm);
     alert("Pedido Efetuado!");
 

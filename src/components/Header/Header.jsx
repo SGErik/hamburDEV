@@ -11,23 +11,25 @@ const Header = () => {
         <header>
             <div className={S.headerText}>
                 <h2>O Simples da melhor forma!</h2>
-                </div>
-                <div className={S.mainHeader}>
-                    <Link to='/'>
-                        <img src={Logo} alt="logo" className={S.imgLogo} />
-                    </Link>
-                    <div className={S.toPages}>
-                        <NavLink to='/'>HOME</NavLink>
-                        <NavLink to='/'>CARDÁPIO</NavLink>
-                        <NavLink to='/'>QUEM SOMOS</NavLink>
-                        <Link to='/facaseupedido'>
-                            <Button className={S.btn} text='DELIVERY' />
-                        </Link>
-                    </div>
-
-                
-
             </div>
+
+            <div className={S.mainHeader}>
+                <Link to='/'>
+                    <img src={Logo} alt="logo" className={S.imgLogo} />
+                </Link>
+                <div className={S.toPages}>
+                    <NavLink to='/'>HOME</NavLink>
+                    <NavLink to='/'>CARDÁPIO</NavLink>
+                    <NavLink to='/'>QUEM SOMOS</NavLink>
+                    <NavLink to='/meuspedidos'>MEUS PEDIDOS</NavLink>
+                    <Link to='/facaseupedido'>
+                        <Button className={S.btn} text='DELIVERY' />
+                    </Link>
+                </div>
+            </div>
+
+
+
 
 
         </header>

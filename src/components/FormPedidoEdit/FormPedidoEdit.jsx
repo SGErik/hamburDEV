@@ -6,15 +6,6 @@ import { PedidoContext } from '../../context/pedidoContext'
 import { useEffect } from 'react'
 
 const FormPedidoEdit = () => {
-    // const [dataForm, setDataForm] = useState({
-    //     pedido: "",
-    //     nome: "",
-    //     endereco: "",
-    //     itensdopedido: "",
-    //     formadepagamento: "",
-    //     mododeentrega: "",
-    //     total: "",
-    //   });
     const { pedido } = useContext(PedidoContext)
     const [nome, setNome] = useState('')
     const [NomePedido, setNomePedido] = useState('')
@@ -69,7 +60,7 @@ const FormPedidoEdit = () => {
 
         }
         console.log(data);
-        api.patch(`/pedidos/id/${pedido}`,data)
+        api.patch(`/pedidos/id/${pedido}`, data)
     }
 
     return (
