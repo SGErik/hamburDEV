@@ -34,7 +34,7 @@ const MeusPedidos = () => {
                 />
                 <div className={S.cardData}>
                   <h1>
-                    <span>#{dado.pedido}</span>
+                    <span className={S.OrderNumber}>#{dado.pedido}</span>
                     {dado.nome}
                   </h1>
                   <div className={S.InfoProducts}>
