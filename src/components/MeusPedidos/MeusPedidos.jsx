@@ -5,25 +5,25 @@ import { dataDelete, dataGet } from "../../Services/api";
 import { PedidoContext } from "../../context/pedidoContext";
 import { useNavigate } from "react-router-dom";
 
+import Hamburguer from "../../assets/hamburguer1.jpg";
+
 const MeusPedidos = () => {
-  const { pedido, setPedido } = useContext(PedidoContext)
+  const { pedido, setPedido } = useContext(PedidoContext);
   const [dados, setDados] = useState([]);
-  const [Index, setIndex] = useState(-2)
-  const navigate = useNavigate()
+  const [Index, setIndex] = useState(-2);
+  const navigate = useNavigate();
   useEffect(() => {
     dataGet(setDados, dados);
   }, []);
   useEffect(() => {
     if (Index != -2) {
-      dataDelete(pedido)
+      dataDelete(pedido);
       setTimeout(() => {
-        
         console.log("entrei");
-        document.location.reload(true)
+        document.location.reload(true);
       }, 1000);
     }
-  }, [Index])
-
+  }, [Index]);
 
   return (
     <div className={S.primaryContainer}>
@@ -33,7 +33,7 @@ const MeusPedidos = () => {
           return (
             <div className={S.cardProducts} key={index}>
               <div className={S.cardInfo}>
-                <img src={dado.img} alt="" />
+                <img src={!dado.img ? Hamburguer : dado.img} alt="" />
                 <div className={S.cardData}>
                   <h1>
                     <span className={S.OrderNumber}>#{dado.pedido}</span>
@@ -51,18 +51,26 @@ const MeusPedidos = () => {
                 </div>
                 <div className="btnActions">
                   <div>
-
-                    <TbEdit size={28} color="black" cursor="pointer" onClick={() => {
-                      setPedido(dado.pedido)
-                      navigate(`/alterarseupedido/${pedido}`)
-                    }} />
+                    <TbEdit
+                      size={28}
+                      color="black"
+                      cursor="pointer"
+                      onClick={() => {
+                        setPedido(dado.pedido);
+                        navigate(`/alterarseupedido/${pedido}`);
+                      }}
+                    />
                   </div>
                   <div>
-
-                    <TbTrash size={28} color="black" cursor="pointer" onClick={() => {
-                      setPedido(dado.pedido)
-                      setIndex(index)
-                    }} />
+                    <TbTrash
+                      size={28}
+                      color="black"
+                      cursor="pointer"
+                      onClick={() => {
+                        setPedido(dado.pedido);
+                        setIndex(index);
+                      }}
+                    />
                   </div>
                 </div>
               </div>
