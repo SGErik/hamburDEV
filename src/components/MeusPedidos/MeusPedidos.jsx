@@ -33,14 +33,10 @@ const MeusPedidos = () => {
           return (
             <div className={S.cardProducts} key={index}>
               <div className={S.cardInfo}>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE1TPTOkAgcOOL7HcHKAlj_LniimOiedHZdQ&usqp=CAU"
-                  alt=""
-                />
+                <img src={dado.img} alt="" />
                 <div className={S.cardData}>
                   <h1>
-                    <span>#{dado.pedido}</span>
-                    <br></br>
+                    <span className={S.OrderNumber}>#{dado.pedido}</span>
                     {dado.nome}
                   </h1>
                   <div className={S.InfoProducts}>
