@@ -66,6 +66,25 @@ No Quem Somos pode ser encontrado a descrição e a historia da Hamburdev
 
 ## Meus Pedidos
 No meus pedidos pode ser encontrado todos os pedidos feitos permitindo editar e deletar os pedidos de acordo com a necessidade desejada
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189419099-d271913b-662f-46c0-ab10-25f000e1c6e3.jpeg" width="700px" />
+</div>
+Editar:<br>
+Para editar selecione o icone editar
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189419721-ee7d79ca-b4f1-4492-a910-e93a1f456c89.png" width="50px" />
+</div>
+Escolha a informação que deseja ser alterada e aperte o botão alterar pedido
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189420938-a93389ed-4947-460b-b6bd-22780d9c608a.jpeg" width="450px" />
+</div>
+Deletar:<br>
+Selecione o icone deletar e o pedido será deletado
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189421550-0c5ce26b-7cf9-4f0f-97d8-3450a0a69670.png" width="50px" />
+</div>
+
+
 
 ## Delivery
 No delivery é onde o pedido é feito pelos usuários e enviado para a pagina meus pedidos
