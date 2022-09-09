@@ -3,7 +3,7 @@ import React from 'react'
 const Pagedivider = () => {
   return (
     <div>
-        <hr/>
+      <hr />
     </div>
   )
 }

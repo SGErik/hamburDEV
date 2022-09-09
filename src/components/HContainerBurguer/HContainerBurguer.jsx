@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../Button/Button'
 import S from './HContainerBurguer.module.css'
 
 const HContainerBurguer = ({ text }) => {
@@ -19,7 +18,7 @@ const HContainerBurguer = ({ text }) => {
 
                 </div>
             </div>
-        
+
         </div>
     )
 }

@@ -6,21 +6,21 @@ import { PedidoContext } from "../../context/pedidoContext";
 import { useNavigate } from "react-router-dom";
 
 const MeusPedidos = () => {
-  const {pedido, setPedido} = useContext(PedidoContext)
+  const { pedido, setPedido } = useContext(PedidoContext)
   const [dados, setDados] = useState([]);
   const [deleta, setDeleta] = useState(false)
   const navigate = useNavigate()
   useEffect(() => {
-    dataGet(setDados,dados);
+    dataGet(setDados, dados);
   }, []);
-  useEffect(()=>{
-    if(deleta == true){
+  useEffect(() => {
+    if (deleta == true) {
       dataDelete(pedido)
-      dataGet(setDados,dados)
+      dataGet(setDados, dados)
       setDeleta(false)
     }
-  },[deleta])
-  
+  }, [deleta])
+
   return (
     <div className={S.primaryContainer}>
       <h1 className={S.Title}>Meus pedidos</h1>
@@ -37,7 +37,7 @@ const MeusPedidos = () => {
                   <h1>
                     <span>#{dado.pedido}</span>
                     <br></br>
-                     {dado.nome}
+                    {dado.nome}
                   </h1>
                   <div className={S.InfoProducts}>
                     <p>Produto: {dado.itensdopedido}</p>
@@ -51,15 +51,15 @@ const MeusPedidos = () => {
                 </div>
                 <div className="btnActions">
                   <div>
-                    <TbEdit size={28} color="black" onClick={()=>{
-                          setPedido(dado.pedido)
-                          navigate(`/alterarseupedido/${pedido}`)
-                    }}/>
+                    <TbEdit size={28} color="black" onClick={() => {
+                      setPedido(dado.pedido)
+                      navigate(`/alterarseupedido/${pedido}`)
+                    }} />
                   </div>
                   <div>
-                    <TbTrash size={28} color="black" onClick={()=>{
-                       setPedido(dado.pedido)
-                       setDeleta(true)
+                    <TbTrash size={28} color="black" onClick={() => {
+                      setPedido(dado.pedido)
+                      setDeleta(true)
                     }} />
                   </div>
                 </div>

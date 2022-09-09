@@ -32,6 +32,7 @@ header {
 .toPages {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -95,3 +96,4 @@ a:hover,
 
     }
 }
+
