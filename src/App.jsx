@@ -1,16 +1,27 @@
+import { useState } from "react";
 import "./App.css";
 import { PedidoContextProvider } from "./context/pedidoContext";
-import  Router  from "./routes";
-
+import Router from "./routes";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const loader = document.getElementById("loader");
+
+  if (loader) {
+    setTimeout(() => {
+      loader.style.display = "none";
+      setLoading(false);
+    }, 1500);
+  }
 
   return (
-    <PedidoContextProvider>
-      <div className="App">
-        <Router />
-      </div>
-    </PedidoContextProvider>
+    !loading && (
+      <PedidoContextProvider>
+        <div className="App">
+          <Router />
+        </div>
+      </PedidoContextProvider>
+    )
   );
 }
 
