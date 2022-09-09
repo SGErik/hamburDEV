@@ -38,6 +38,17 @@ const FormPedido = () => {
     dataPost(dataForm);
     document.location.reload(true)
     console.log(dataForm);
+    alert("Pedido Efetuado!");
+
+    setDataForm({
+      pedido: "",
+      nome: "",
+      endereco: "",
+      itensdopedido: "",
+      formadepagamento: "",
+      mododeentrega: "",
+      total: "",
+    });
   }
 
   return (

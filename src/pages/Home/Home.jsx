@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import HCardapio from '../../components/HCardápio/HCardapio'
 import HContainerBurguer from '../../components/HContainerBurguer/HContainerBurguer'
-import HMaisSobre from '../../components/HMaisSobre/HMaisSobre'
 import HQuemSomos from '../../components/HQuemSomos/HQuemSomos'
 import S from './Home.module.css'
 import Loading from '../../components/Loading/Loading'
@@ -25,8 +24,6 @@ const Home = () => {
 
 
   return (
-    <>
-      {loading ? <Loading /> :
         <div className={S.mainDiv}>
           <HContainerBurguer text='HAMBUR{DEV}!' />
           <HCardapio />
@@ -34,8 +31,6 @@ const Home = () => {
             <HQuemSomos />
           </div>
         </div>
-      }
-    </>
 
 
 
