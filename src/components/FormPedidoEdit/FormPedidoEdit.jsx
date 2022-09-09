@@ -60,7 +60,7 @@ const FormPedidoEdit = () => {
 
         }
         console.log(data);
-        api.patch(`/pedidos/id/${pedido}`,data)
+        api.patch(`/pedidos/id/${pedido}`, data)
     }
 
     return (

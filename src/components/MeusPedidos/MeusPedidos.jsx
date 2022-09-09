@@ -24,6 +24,7 @@ const MeusPedidos = () => {
     }
   }, [Index])
 
+
   return (
     <div className={S.primaryContainer}>
       <h1 className={S.Title}>Meus pedidos</h1>
@@ -54,12 +55,14 @@ const MeusPedidos = () => {
                 </div>
                 <div className="btnActions">
                   <div>
+
                     <TbEdit size={28} color="black" cursor="pointer" onClick={() => {
                       setPedido(dado.pedido)
                       navigate(`/alterarseupedido/${pedido}`)
                     }} />
                   </div>
                   <div>
+
                     <TbTrash size={28} color="black" cursor="pointer" onClick={() => {
                       setPedido(dado.pedido)
                       setIndex(index)

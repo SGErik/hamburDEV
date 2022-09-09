@@ -6,16 +6,21 @@
     margin-left: 80px;
     justify-content: center;
     color: #E99856;
+    overflow: hidden;
 
 }
 
 
 .backgroundDiv {
-    background-image: url(../../assets/HamburguerDiv.jpg);
+    background: url(../../assets/HamburguerDiv.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: center;
 }
+
+
+
 .mainDiv h1 {
     font-size: 30px;
     font-family: 'PoppinsBold', sans-serif;

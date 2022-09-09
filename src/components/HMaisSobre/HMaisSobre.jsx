@@ -4,9 +4,9 @@ import S from './HMaisSobre.module.css'
 const HMaisSobre = () => {
   return (
     <div className={S.dadDiv}>
-        <div>
+      <div>
         <h1>MAIS SOBRE NÓS</h1>
-        </div>
+      </div>
 
     </div>
   )
