@@ -37,6 +37,17 @@ const FormPedido = () => {
     ValidaProdutoePreco();
     dataPost(dataForm);
     console.log(dataForm);
+    alert("Pedido Efetuado!");
+
+    setDataForm({
+      pedido: "",
+      nome: "",
+      endereco: "",
+      itensdopedido: "",
+      formadepagamento: "",
+      mododeentrega: "",
+      total: "",
+    });
   }
 
   return (
