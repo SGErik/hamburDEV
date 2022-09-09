@@ -19,8 +19,8 @@ const Header = () => {
                 </Link>
                 <div className={S.toPages}>
                     <NavLink to='/'>HOME</NavLink>
-                    <NavLink to='/'>CARDÁPIO</NavLink>
-                    <NavLink to='/'>QUEM SOMOS</NavLink>
+                    <a href='#cardapio'>CARDÁPIO</a>
+                    <a href='#quemsomos'>QUEM SOMOS</a>
                     <NavLink to='/meuspedidos'>MEUS PEDIDOS</NavLink>
                     <Link to='/facaseupedido'>
                         <Button className={S.btn} text='DELIVERY' />

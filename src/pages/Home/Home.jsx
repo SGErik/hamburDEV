@@ -15,9 +15,9 @@ const Home = () => {
 
   const [loading, setLoading] = useState(true)
 
-  useEffect(()=> {
+  useEffect(() => {
     setTimeout(() => {
-    setLoading(false)  
+      setLoading(false)
     }, 2500);
   }, [])
 
@@ -26,22 +26,19 @@ const Home = () => {
 
   return (
     <>
-    {loading ? <Loading /> : 
-    <div className={S.mainDiv}>
-    <HContainerBurguer text='HAMBUR{DEV}!'/>
-    <HCardapio/>
-    <div>
-    <HQuemSomos/>
-    </div>
-    <div>
-    <HMaisSobre/>
-    </div>
-    </div>
-    }
+      {loading ? <Loading /> :
+        <div className={S.mainDiv}>
+          <HContainerBurguer text='HAMBUR{DEV}!' />
+          <HCardapio />
+          <div>
+            <HQuemSomos />
+          </div>
+        </div>
+      }
     </>
 
-  
-  
+
+
   )
 }
 

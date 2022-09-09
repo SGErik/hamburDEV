@@ -4,7 +4,7 @@ import S from './HQuemSomos.module.css'
 const HQuemSomos = () => {
     return (
 
-        <div className={S.header}>
+        <div className={S.header} id='quemsomos'>
             <div className={S.bdSet} />
             <div className={S.content}>
                 <div className={S.texts}>

@@ -7,7 +7,7 @@ import S from './HCardapio.module.css'
 
 const HCardapio = () => {
     return (
-        <div className={S.mainDiv}>
+        <div className={S.mainDiv} id='cardapio'>
             <div className={S.pageDivider}>
                 <Pagedivider />
                 <h2>Cardápio</h2>
