@@ -50,7 +50,7 @@ No menu no top da pagina se localiza os opções Home/Cardapio/QuemSomos/MeusPed
 ## Home
 Na home pode ser visto as informações da HamburDev
 <div >
-<img src="https://user-images.githubusercontent.com/102706093/189365376-e38e8765-bdc1-4d19-ae35-dfb6b5253556.png" width="700px" />
+<img src="https://user-images.githubusercontent.com/102706093/189443007-69334bce-3770-4ffa-be58-1064d2acf311.png" width="700px" />
 </div>
 
 ## Cardapio
@@ -68,7 +68,7 @@ No Quem Somos pode ser encontrado a descrição e a historia da Hamburdev
 ## Meus Pedidos
 No meus pedidos pode ser encontrado todos os pedidos feitos permitindo editar e deletar os pedidos de acordo com a necessidade desejada
 <div >
-<img src="https://user-images.githubusercontent.com/102706093/189419099-d271913b-662f-46c0-ab10-25f000e1c6e3.jpeg" width="700px" />
+<img src="https://user-images.githubusercontent.com/102706093/189443202-d29090f9-3b3f-4145-9cc5-39354c59d031.png" width="700px" />
 </div>
 Editar:<br>
 Para editar selecione o icone editar
@@ -90,7 +90,7 @@ Selecione o icone deletar e o pedido será deletado
 ## Delivery
 No delivery é onde o pedido é feito pelos usuários e enviado para a pagina meus pedidos
 <div >
-<img src="https://user-images.githubusercontent.com/102706093/189366858-0af67b48-6b36-435f-a75f-09367dfd09ff.jpeg" width="700px" />
+<img src="https://user-images.githubusercontent.com/102706093/189445158-00e66a3c-8316-4409-a467-4cb58c0581f7.png" width="700px" />
 </div>
 
 
