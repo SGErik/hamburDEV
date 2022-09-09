@@ -36,6 +36,7 @@ const FormPedido = () => {
     e.preventDefault();
     ValidaProdutoePreco();
     dataPost(dataForm);
+    document.location.reload(true)
     console.log(dataForm);
   }
 
