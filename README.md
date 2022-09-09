@@ -48,18 +48,31 @@ No menu no top da pagina se localiza os opções Home/Cardapio/QuemSomos/MeusPed
 
 ## Home
 Na home pode ser visto as informações da HamburDev
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189365376-e38e8765-bdc1-4d19-ae35-dfb6b5253556.png" width="700px" />
+</div>
 
 ## Cardapio
 No Cardapio pode ser visto alguns dos produtos da HamburDev
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189365921-59f72cd9-d2f5-4484-bb7c-1835cddad1af.jpeg" width="700px" />
+</div>
 
 ## Quem Somos
 No Quem Somos pode ser encontrado a descrição e a historia da Hamburdev
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189366389-0aa0d06e-503b-4e93-88f6-d90551c467ef.jpeg" width="700px" />
+</div>
 
 ## Meus Pedidos
 No meus pedidos pode ser encontrado todos os pedidos feitos permitindo editar e deletar os pedidos de acordo com a necessidade desejada
 
 ## Delivery
 No delivery é onde o pedido é feito pelos usuários e enviado para a pagina meus pedidos
+<div >
+<img src="https://user-images.githubusercontent.com/102706093/189366858-0af67b48-6b36-435f-a75f-09367dfd09ff.jpeg" width="700px" />
+</div>
+
 
 
 ## Time de desenvolvimento 
