@@ -42,7 +42,40 @@ Iniciando o projeto:
 npm run dev
 ```
 
+## 📂 Instruções
+
+No menu no top da pagina se localiza os opções Home/Cardapio/QuemSomos/MeusPedidos/Delivery ao selecionar uma das opções você será direcionado para suas respectivas seções do site!
+
+## Home
+Na home pode ser visto as informações da HamburDev
+
+## Cardapio
+No Cardapio pode ser visto alguns dos produtos da HamburDev
+
+## Quem Somos
+No Quem Somos pode ser encontrado a descrição e a historia da Hamburdev
+
+## Meus Pedidos
+No meus pedidos pode ser encontrado todos os pedidos feitos permitindo editar e deletar os pedidos de acordo com a necessidade desejada
+
+## Delivery
+No delivery é onde o pedido é feito pelos usuários e enviado para a pagina meus pedidos
 
 
+## Time de desenvolvimento 
 
+<table align='center'>
+  <tr>
+    <td align="center">
+<img src="https://user-images.githubusercontent.com/102706093/189253790-ef54e624-6760-46f1-9ed2-a260cc42e290.png" width="100px" /><a href="https://github.com/SGErik"/><br /><sub><b>Erik Souza</b></sub></a><br /></td> 
+<td align="center">
+<img src="https://user-images.githubusercontent.com/102706093/189254591-91118661-a8e7-41c6-a4e5-71192b8368b7.jpeg" width="100px" /><a href="https://github.com/eumatheusmoura"/><br /><sub><b>Matheus Moura</b></sub></a><br /></td>    
+    <td align="center">
+    <img src="https://user-images.githubusercontent.com/102706093/189255117-0412ec88-e9dd-4739-ab8f-b3b5113cb7f3.jpeg" width="100px" />
+    <a href="https://github.com/Matheus-Hen"/><br /><sub><b>Matheus Henrique</b></sub></a><br /><a href="https://github.com/Matheus-Hen" title="Matheus"></a></td>  
+     <td align="center">
+    <img src="https://user-images.githubusercontent.com/102706093/189256650-41fafbf9-e8df-4b7e-a2d1-296fe342d5d0.png" width="100px" />
+    <a href="https://github.com/CarratiPatrick"/><br /><sub><b>Patrick Ferrari</b></sub></a><br /><a href="https://github.com/CarratiPatrick" title="Patrick"></a></td>
+  </tr>
 
+***
