@@ -17,6 +17,7 @@ Nesse projeto criamos uma pagina para usar o endpoint "pedidos" da API "DEVBURGU
 * React-router-dom
 * React-dom
 * Axios
+* Swiper
 
 ## 📤 Instalação 
 
