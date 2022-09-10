@@ -77,7 +77,7 @@ Para editar selecione o icone editar
 </div>
 Escolha a informação que deseja ser alterada e aperte o botão alterar pedido
 <div >
-<img src="https://user-images.githubusercontent.com/102706093/189420938-a93389ed-4947-460b-b6bd-22780d9c608a.jpeg" width="450px" />
+<img src="https://user-images.githubusercontent.com/102706093/189463860-3447850c-3306-46e8-8bad-197b5b6d031e.jpeg" width="450px" />
 </div>
 Deletar:<br>
 Selecione o icone deletar e o pedido será deletado
