@@ -46,4 +46,10 @@
     }
 }
 
+@media (max-width: 450px) {
+   .mainDiv {
+    margin-left: 50px;
+    text-align: center;
+   }
+}
 
